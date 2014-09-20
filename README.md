@@ -1,5 +1,5 @@
 Getting and Cleaning Data
-===================
+=========================
 
 This repository contains the file for the Getting and Cleaning Data course project.
 
