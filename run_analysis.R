@@ -51,7 +51,7 @@ rm(Data_Merged)
 
 
 
-# STEP 3 - Use Decriptive Activity Names to name activities in data set
+# STEP 3 - Use Descriptive Activity Names for Activities in Data Set
 
 # Read and add Activity labels
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
@@ -59,7 +59,7 @@ Data_Merged_Sub$Activity_ID <- factor(Data_Merged_Sub$Activity_ID, levels=c(1,2,
 
 
 
-# STEP 4 - Appropriately Label Data Set with Decriptive Variable Names
+# STEP 4 - Appropriately Label Data Set with Descriptive Variable Names
 
 # This was already partially completed as part of STEP 1 when Training and Test data were combined
 # To further improve the labeling of descriptive variable names, the following changes were carried out 
