@@ -1,15 +1,14 @@
 ## Code Book
 
 
-This code book describes the variables, the data, and any transformations or work performed by the "run_analysis.R" program to clean up the data.
+This code book describes the variables, the data, and transformations or work performed by the "run_analysis.R" program to clean up the data.
 
 
-### Merge Training and Test Data Sets
+Merge Training and Test Data Sets
 
-* Read in Features labels file from "UCI HAR Dataset" directory (features.txt)
-
+* Read in Features labels from "UCI HAR Dataset" directory (features.txt)
 * Read in Test data files (X_test.txt, y_test.txt, subject_test.txt) from "UCI HAR Dataset/test" directory
-* Add column names "Subject_ID" and "Activity_ID" to subject_text.txt and y_test.txt data respectively
+** Add column names "Subject_ID" and "Activity_ID" to subject_text.txt and y_test.txt data respectively
 * Add column names using Features labels file to X_test.txt data columns 
 
 * Read in Training data files (X_train.txt, y_train.txt, subject_train.txt) from "UCI HAR Dataset/test" directory
